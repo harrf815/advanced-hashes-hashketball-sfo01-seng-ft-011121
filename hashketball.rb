@@ -136,17 +136,25 @@ def num_points_scored(name)
     player_stats = stats[:players]
     player_stats.each do |detail_stats|
       if detail_stats[:name] == name 
-        detail_stats[:points]
-      
-       
-        
+        scored = detail_stats[:points]
+        scored 
       end
-      
-      
     end
   end
 end
     
+def shoe_size(name)
+  game_hash.each do |team, team_stats|
+    player_stats = team_stats[:players]
+    player_stats.each do [detail_stats]
+      if detail_stats[:name] == name 
+        size = detail_stats[:shoe]
+      end
+    end
+  end
+  binding.pry 
+end
+
     
   
 
