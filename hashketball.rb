@@ -1,4 +1,4 @@
-
+require 'pry'
 # Write your code below game_hash
 def game_hash
   {
@@ -181,6 +181,7 @@ def player_numbers(team_name)
           if key == :number 
             player_numbers << value 
           end
+          binding.pry 
         end
       end
     end
