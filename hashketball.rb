@@ -141,7 +141,8 @@ def num_points_scored(name)
       end
     end
   end
-  scored 
+  scored
+  binding.pry 
 end
     
     
