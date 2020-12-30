@@ -142,7 +142,6 @@ def num_points_scored(name)
     end
     scored
   end
-  scored
 end
     
     
