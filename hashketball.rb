@@ -153,9 +153,10 @@ def shoe_size(name)
         size 
       end
       size 
-      binding.pry 
+
     end
   end
+  size 
 end
 
     
