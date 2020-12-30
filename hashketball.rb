@@ -150,9 +150,10 @@ def shoe_size(name)
       if detail_stats[:name] == name 
         size = detail_stats[:shoe]
       end
+      binding.pry 
     end
   end
-  binding.pry 
+  
 end
 
     
