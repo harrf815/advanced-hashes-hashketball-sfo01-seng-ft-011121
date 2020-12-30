@@ -139,7 +139,7 @@ def num_points_scored(name)
         scored = stats_hash[:points]
         
       end
-      binding.pry
+      binding.pry 
     end
   end
   scored
