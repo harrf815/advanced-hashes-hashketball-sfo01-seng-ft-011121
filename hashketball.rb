@@ -131,9 +131,8 @@ require './hashketball.rb'
 # Write code here
 
 def num_points_scored(name)
-  
+  scored = 0 
   game_hash.each do |team, stats|
-    scored = 0 
     player_stats = stats[:players]
     player_stats.each do |detail_stats|
       if detail_stats[:player_name] == name 
