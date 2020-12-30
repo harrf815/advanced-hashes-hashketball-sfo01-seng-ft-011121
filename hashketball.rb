@@ -133,14 +133,15 @@ require './hashketball.rb'
 def num_points_scored(name)
   
   game_hash.each do |team, stats|
+    scored = 0 
     player_stats = stats[:players]
     player_stats.each do |detail_stats|
       if detail_stats[:plaer_name] == name 
         scored = detail_stats[:points]
-        scored 
       end
     end
   end
+  scored 
 end
     
 def shoe_size(name)
