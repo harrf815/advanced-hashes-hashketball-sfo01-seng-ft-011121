@@ -136,7 +136,7 @@ def num_points_scored(name)
     scored = 0 
     player_stats = stats[:players]
     player_stats.each do |detail_stats|
-      if detail_stats[:plaer_name] == name 
+      if detail_stats[:player_name] == name 
         scored = detail_stats[:points]
       end
     end
