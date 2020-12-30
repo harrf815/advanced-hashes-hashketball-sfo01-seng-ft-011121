@@ -144,6 +144,7 @@ def num_points_scored(name)
 end
     
 def shoe_size(name)
+  size = 0 
   game_hash.each do |team, team_stats|
     player_stats = team_stats[:players]
     player_stats.each do |detail_stats|
@@ -151,6 +152,7 @@ def shoe_size(name)
         size = detail_stats[:shoe]
         size 
       end
+      size 
       binding.pry 
     end
   end
