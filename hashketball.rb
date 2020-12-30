@@ -137,7 +137,7 @@ def num_points_scored(name)
     player_stats.each do |detail_stats|
       if detail_stats[:name] == name 
         scored = detail_stats[:points]
-        return scored
+        scored
         
       end
       scored 
