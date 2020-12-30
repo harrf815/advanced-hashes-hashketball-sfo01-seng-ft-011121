@@ -151,6 +151,7 @@ def shoe_size(name)
         size = detail_stats[:shoe]
         size 
       end
+      binding.pry 
     end
   end
 end
