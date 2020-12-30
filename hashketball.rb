@@ -198,7 +198,6 @@ def player_stats(name)
     end
   end
   player_stats
-  binding.pry
 end
       
   
