@@ -134,6 +134,8 @@ def num_points_scored(name)
   scored = nil 
   game_hash.each do |team, stats|
     binding pry
+  end
+end
     
     
   
