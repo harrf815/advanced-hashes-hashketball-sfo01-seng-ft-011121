@@ -179,14 +179,14 @@ def player_numbers(team_name)
       team_details[:players].each do |player|
         player.each do |key, value|
           if key == :number 
-            player_numbers << value 
+            jersey_numbers << value 
           end
           binding.pry 
         end
       end
     end
   end
-  player_numbers
+  jersey_numbers
 end
 
 def player_stats(name)
