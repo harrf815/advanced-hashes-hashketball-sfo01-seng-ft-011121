@@ -150,10 +150,7 @@ def shoe_size(name)
     player_stats.each do |detail_stats|
       if detail_stats[:player_name] == name 
         size = detail_stats[:shoe]
-        size 
       end
-      size 
-
     end
   end
   size 
