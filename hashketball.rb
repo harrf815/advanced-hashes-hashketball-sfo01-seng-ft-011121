@@ -181,12 +181,13 @@ def player_numbers(team_name)
           if key == :number 
             jersey_numbers << value 
           end
-          binding.pry 
+          
         end
       end
     end
   end
   jersey_numbers
+  binding.pry
 end
 
 def player_stats(name)
