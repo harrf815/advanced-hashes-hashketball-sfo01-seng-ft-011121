@@ -137,12 +137,12 @@ def num_points_scored(name)
     player_stats.each do |stats_hash|
       if stats_hash[:name] == name 
         scored = stats_hash[:points]
+        scored
         
       end
       binding.pry 
     end
   end
-  scored
 end
     
     
